@@ -1,0 +1,15 @@
+input{
+    padding: 8px;
+    border: 3px solid blue;
+    border-radius: 35px;
+    background-color: rgb(189, 235, 239);
+    color: blue;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+input:focus, textarea:focus{
+    outline: none;
+    border-color: rgb(252, 4, 252);
+    box-shadow: 0 15px 20px rgba(219, 117, 212, 0.959);
+}

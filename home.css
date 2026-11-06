@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(247, 251, 253);
+}
+.demo-container{
+    background-color: rgb(196, 255, 254);
+    border: 3px double darkorchid;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.demo-row{
+    background-color: rgb(248, 212, 236);
+    min-height: 120px;
+}
+
+.card-demo{
+    background-color: rgb(228, 204, 250);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.card-demo:hover{
+    transform: translateY(-10px);
+}
+
+.icon{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
